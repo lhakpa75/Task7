@@ -1,7 +1,11 @@
+import Card from "./Card";
+import Cardss from "./Cardss";
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <header className="text-4xl">Hello</header>
+      <Cardss />
     </>
   );
 }
